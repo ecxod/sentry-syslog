@@ -57,7 +57,7 @@ module`_ as the `binary` to selectively forward a system's syslog messages to Se
 events.  See the `example omprog configuration`_ which might be installed as follows
 (will require adapting to the system)::
 
-  $ sudo curl https://raw.githubusercontent.com/rpatterson/sentry-syslog/master/src/sentry_syslog/etc/rsyslog.d/99-sentry.conf >/etc/rsyslog.d/99-sentry.conf
+  $ sudo curl https://raw.githubusercontent.com/ecxod/sentry-syslog/master/src/sentrysyslog/etc/rsyslog.d/99-sentry.conf > /etc/rsyslog.d/99-sentry.conf
   $ sudo editor /etc/rsyslog.d/99-sentry.conf
   $ sudo systemctl restart rsyslog.service
 
@@ -68,4 +68,4 @@ events.  See the `example omprog configuration`_ which might be installed as fol
 .. _pip: https://pip.pypa.io/en/stable/installing/
 .. _Rsyslog's omprog output module:
    https://www.rsyslog.com/doc/v8-stable/configuration/modules/omprog.html
-.. _example omprog configuration: ./src/sentry_syslog/etc/rsyslog.d/99-sentry.conf
+.. _example omprog configuration: ./src/sentrysyslog/etc/rsyslog.d/99-sentry.conf

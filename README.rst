@@ -4,7 +4,7 @@ sentry-syslog
 Send Syslog RFC 5424 Messages to Senty as Events
 ------------------------------------------------
 
-.. image:: https://github.com/rpatterson/sentry-syslog/workflows/Run%20linter,%20tests%20and,%20and%20release/badge.svg
+.. image:: https://github.com/rpatterson/sentrysyslog/workflows/Run%20linter,%20tests%20and,%20and%20release/badge.svg
 
 The `sentry-syslog` command-line script sends `RFC 5424 IETF Syslog Protocol`_
 message to Sentry as events as follows:
